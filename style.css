@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.attribution {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.attribution a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(18, 60px);
+  gap: 4px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.element {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.element small {
+  display: block;
+  font-size: 0.75em;
+  font-weight: normal;
+}
+
+.spacer {
+  background: none;
+}
